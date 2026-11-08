@@ -70,7 +70,9 @@ pre.code{background:var(--code);color:#cfe3ff;border-radius:16px;padding:22px;fo
 pre.code .k{color:#f2b84b}pre.code .c{color:#6f8299}
 .dark-band{background:var(--ink);color:var(--bg)}
 .dark-band .sub,.dark-band p{color:color-mix(in srgb,var(--bg) 70%,transparent)}
-table.cmp{width:100%;border-collapse:collapse;font-size:15px;background:var(--card);border-radius:16px;overflow:hidden;display:block;overflow-x:auto}
+div.tbl{overflow-x:auto;border-radius:16px;border:1px solid var(--line);background:var(--card)}
+table.cmp{width:100%;min-width:560px;border-collapse:collapse;font-size:15px}
+table.cmp tr:last-child td{border-bottom:0}
 table.cmp th,table.cmp td{border-bottom:1px solid var(--line);padding:14px 16px;text-align:left;white-space:nowrap}
 table.cmp th{background:var(--bg2)}
 table.cmp td.y{color:var(--accent);font-weight:800}
