@@ -2,39 +2,140 @@
 <html lang="ko"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>락박스 - 만든 사람도 못 여는 사진 금고</title>
-<meta name="description" content="사진·신분증·메모를 휴대폰 안에서만 잠그는 아이폰 금고 앱. 서버가 없어 만든 사람도 애플도 열 수 없습니다.">
+<meta name="description" content="사진·신분증·메모를 휴대폰 안에서만 암호화해 잠그는 아이폰 금고 앱. 3×3·5×5 패턴 잠금, 계정·서버 없음.">
 <link rel="canonical" href="https://lockboxapp.co.kr/">
 <meta property="og:type" content="website"><meta property="og:title" content="락박스 - 만든 사람도 못 여는 사진 금고">
-<meta property="og:description" content="사진·신분증·메모를 휴대폰 안에서만 잠그는 아이폰 금고 앱. 서버가 없어 만든 사람도 애플도 열 수 없습니다."><meta property="og:url" content="https://lockboxapp.co.kr/">
+<meta property="og:description" content="사진·신분증·메모를 휴대폰 안에서만 암호화해 잠그는 아이폰 금고 앱. 3×3·5×5 패턴 잠금, 계정·서버 없음."><meta property="og:url" content="https://lockboxapp.co.kr/">
 <meta name="google-site-verification" content="여기에-구글-인증코드">
 <meta name="naver-site-verification" content="여기에-네이버-인증코드">
 <link rel="stylesheet" href="style.css">
-</head><body><header class="top"><div class="wrap">
-<a class="logo" href="index.html">Lock<span>box</span></a>
-<nav><a href="guides.html">안내 글</a><a href="privacy.html">개인정보</a></nav>
-</div></header>
-<main class="wrap">
-<section class="hero">
-<h1>아무도 못 열어요.<br>만든 사람도.</h1>
-<p>사진·신분증·비밀 메모를 휴대폰 안에서만 잠그는 금고.<br>서버가 없어서 회사도, 애플도 열 수 없습니다.</p>
-<a class="btn" id="download" href="#download">곧 앱스토어 출시</a><a class="btn ghost" href="guides.html">안내 글 보기</a>
-</section>
-<div class="features">
-<div class="f"><h3>서버 없음</h3><p>모든 파일은 내 폰 안에서 암호화됩니다. 어디에도 업로드되지 않습니다.</p></div>
-<div class="f"><h3>별도 비밀번호</h3><p>폰 암호와 다른 패턴·PIN으로 잠그고, Face ID로 빠르게 엽니다.</p></div>
-<div class="f"><h3>사진부터 시드 문구까지</h3><p>사진, 신분증, 카드, 코인 지갑 복구 문구를 한곳에.</p></div>
-<div class="f"><h3>내가 갖는 백업</h3><p>암호화된 백업 파일을 직접 저장해 새 폰으로 옮깁니다.</p></div>
+</head><body><script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-theme');var dark=c?c==='dark':matchMedia('(prefers-color-scheme: dark)').matches;var n=dark?'light':'dark';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}}</script><header class="top"><div class="wrap">
+<a class="logo" href="index.html"><i></i>Lockbox</a>
+<nav class="menu"><a href="index.html#features">기능</a><a href="index.html#how">작동 방식</a><a href="index.html#security">보안</a><a href="index.html#compare">비교</a><a href="guides.html">안내 글</a></nav>
+<div class="right"><button class="theme" onclick="toggleTheme()" aria-label="테마 전환">◐</button><a class="btn sm" href="index.html#download">앱 받기</a></div>
+</div></header><main><section class="hero">
+<div class="wrap">
+<div>
+<span class="pill"><b>AES-256-GCM</b> · 기기 안 암호화 · 계정 없음 · 서버 없음</span>
+<h1>가려진 항목은<br><s>숨긴 게 아니에요.</s><br><em>락박스는 진짜 잠가요.</em></h1>
+<p class="lead"><b>내 패턴으로만 열리는 금고에 사진을 옮기세요.</b><span>휴대폰 안에서 암호화돼요. 가입도, 이메일도, 서버도 없어요.</span></p>
+<div class="cta-row"><a class="btn" id="download" href="#download">곧 App Store 출시</a><a class="btn ghost" href="#how">어떻게 지켜주나요?</a></div>
+<p class="fine">무료로 시작 · 계정 없음 · 금고 안의 파일은 암호화되지 않은 채로 폰 밖에 나가지 않아요</p>
 </div>
-<section><h2>가격</h2><p style="color:var(--muted)">기본 기능은 무료입니다. 더 많이 보관하고 싶을 때만 결제하세요.</p>
-<div class="price">
-<div class="p"><small>주간</small><b>2,500원</b><small>부담 없이 체험</small></div>
-<div class="p best"><small>평생 이용권</small><b>49,000원</b><small>한 번 사면 끝</small></div>
-<div class="p"><small>연간</small><b>25,000원</b><small>월 2,100원꼴</small></div>
+<div class="phone" aria-hidden="true">
+<div class="ico">🔒</div>
+<p>패턴을 그려 주세요</p>
+<svg viewBox="0 0 210 210">
+<g fill="var(--dot)"><circle cx="21" cy="21" r="7"/><circle cx="63" cy="21" r="7"/><circle cx="105" cy="21" r="7"/><circle cx="147" cy="21" r="7"/><circle cx="189" cy="21" r="7"/><circle cx="21" cy="63" r="7"/><circle cx="63" cy="63" r="7"/><circle cx="105" cy="63" r="7"/><circle cx="147" cy="63" r="7"/><circle cx="189" cy="63" r="7"/><circle cx="21" cy="105" r="7"/><circle cx="63" cy="105" r="7"/><circle cx="105" cy="105" r="7"/><circle cx="147" cy="105" r="7"/><circle cx="189" cy="105" r="7"/><circle cx="21" cy="147" r="7"/><circle cx="63" cy="147" r="7"/><circle cx="105" cy="147" r="7"/><circle cx="147" cy="147" r="7"/><circle cx="189" cy="147" r="7"/><circle cx="21" cy="189" r="7"/><circle cx="63" cy="189" r="7"/><circle cx="105" cy="189" r="7"/><circle cx="147" cy="189" r="7"/><circle cx="189" cy="189" r="7"/></g>
+<polyline class="trace" points="21,21 21,105 63,105 105,105 105,147 105,189 147,189 189,147 189,63"/>
+</svg>
+<small>5×5 패턴 · Face ID로도 열 수 있어요</small>
+</div>
+</div>
+</section>
+
+<div class="strip"><div class="wrap"><span>NO ACCOUNT</span><span>NO SERVER</span><span>NO BACKDOOR</span><span>만든 사람도 못 열어요</span></div></div>
+
+<section class="block" id="features"><div class="wrap">
+<span class="eyebrow">Features</span>
+<h2 class="big">숨기는 앱이 아니라, 잠그는 앱</h2>
+<p class="sub">락박스는 파일을 안 보이게 감추는 데서 끝나지 않아요. 파일 자체를 암호화해서, 폰을 통째로 가져가도 내 패턴 없이는 읽을 수 없게 만들어요.</p>
+<div class="grid">
+<div class="card"><span class="tag">FREE</span><h3>패턴 잠금 3×3 · 5×5</h3><p>익숙한 3×3 패턴부터 점 25개짜리 5×5 패턴까지. 6자리 PIN도 고를 수 있어요.</p></div>
+<div class="card"><span class="tag">FREE</span><h3>기기 안 암호화</h3><p>사진은 금고에 들어오는 순간 AES-256-GCM으로 암호화돼요. 암호화되지 않은 사본은 남지 않아요.</p></div>
+<div class="card"><span class="tag">FREE</span><h3>원본 정리</h3><p>금고로 옮긴 뒤 사진 앱에 남은 원본을 지울지 바로 물어봐요.</p></div>
+<div class="card"><span class="tag">FREE</span><h3>Face ID</h3><p>패턴을 정한 뒤에는 얼굴 인식으로 빠르게 열 수 있어요.</p></div>
+<div class="card"><span class="tag">FREE</span><h3>자동 잠금</h3><p>앱을 벗어나는 순간 열쇠를 메모리에서 지우고 다시 잠가요.</p></div>
+<div class="card"><span class="tag pro">PRO</span><h3>무제한 보관</h3><p>무료는 사진 10장까지. Pro는 사진·동영상·앨범을 제한 없이 보관해요.</p></div>
+</div>
 </div></section>
-<section><h2>안내 글</h2><div class="list"><a href="iphone-hide-photos.html">아이폰 사진 숨기기 방법 3가지 (기본 기능부터 금고 앱까지)<span>아이폰에서 사진을 숨기는 방법을 정리했습니다. 기본 '가리기' 기능, 가려진 항목 잠그기, 그리고 기본 기능으로 부족할 때 쓰는 금고 앱까지.</span></a>
+
+<section class="block" id="how"><div class="wrap">
+<span class="eyebrow">How it works</span>
+<h2 class="big">세 단계면 끝나요</h2>
+<p class="sub">설정 마법사도, 회원가입도 없어요.</p>
+<div class="steps">
+<div class="card"><h3>패턴 정하기</h3><p>3×3 또는 5×5 패턴(또는 PIN)을 정해요. 이 패턴에서 금고 열쇠가 만들어지고, 패턴 자체는 어디에도 저장되지 않아요.</p></div>
+<div class="card"><h3>사진 넣기</h3><p>사진을 고르면 들어오는 순간 암호화돼요. 원본은 지울지 선택해요.</p></div>
+<div class="card"><h3>잠그기</h3><p>앱을 닫으면 열쇠가 사라져요. 다시 열려면 내 패턴이나 Face ID가 필요해요.</p></div>
+</div>
+</div></section>
+
+<section class="block dark-band" id="security"><div class="wrap sec">
+<div>
+<span class="eyebrow">Security model</span>
+<h2 class="big">서버를 믿지 않아요.<br>수학을 믿어요.</h2>
+<p class="sub">락박스에는 서버가 없어요. 그래서 회사가 해킹돼도, 누가 요청해도 내 사진을 넘겨줄 방법 자체가 없어요.</p>
+<ul class="checks">
+<li>AES-256-GCM 파일 암호화</li>
+<li>PBKDF2-SHA256 열쇠 생성</li>
+<li>무작위 마스터 키 + 패턴으로 감싸기</li>
+<li>열쇠는 이 기기의 Keychain에만</li>
+</ul>
+</div>
+<pre class="code"><span class="k">const</span> lockbox = {
+  cipher: <span class="k">"AES-256-GCM"</span>,
+  kdf: <span class="k">"PBKDF2-SHA256"</span>,
+  iterations: 120000,
+  masterKey: <span class="k">"random 256-bit"</span>,
+  server: <span class="k">null</span>,
+  account: <span class="k">null</span>
+};
+
+<span class="c">// 패턴을 잊으면 아무도 못 열어요.</span>
+<span class="c">// 만든 사람도요.</span></pre>
+</div></section>
+
+<section class="block" id="compare"><div class="wrap">
+<span class="eyebrow">Compare</span>
+<h2 class="big">아이폰 기본 기능과 뭐가 달라요?</h2>
+<p class="sub">아이폰의 '가려진 항목'은 편리하지만, 폰 암호를 아는 사람에게는 열려 있어요.</p>
+<table class="cmp">
+<tr><th></th><th>락박스</th><th>가려진 항목</th><th>계산기 위장 앱</th></tr>
+<tr><td>폰 암호와 다른 비밀번호</td><td class="y">패턴 · PIN</td><td>폰 암호로 열림</td><td>앱마다 다름</td></tr>
+<tr><td>파일 자체 암호화</td><td class="y">AES-256-GCM</td><td>사진 앱 보관</td><td>앱마다 다름</td></tr>
+<tr><td>계정·서버</td><td class="y">없음</td><td>iCloud 동기화</td><td>가입 요구 많음</td></tr>
+<tr><td>5×5 패턴</td><td class="y">지원</td><td>-</td><td>-</td></tr>
+</table>
+</div></section>
+
+<section class="block" id="pricing"><div class="wrap">
+<span class="eyebrow">Pricing</span>
+<h2 class="big">무료로 시작하세요</h2>
+<p class="sub">사진 10장까지는 무료예요. 더 필요할 때만 결제하세요. 첫날 결제를 조르지 않아요.</p>
+<div class="price">
+<div class="card"><small>주간</small><b>2,500원</b><small>부담 없이 체험</small></div>
+<div class="card best"><small>평생 이용권</small><b>49,000원</b><small>한 번 사면 끝</small></div>
+<div class="card"><small>연간</small><b>25,000원</b><small>월 2,100원꼴</small></div>
+</div>
+</div></section>
+
+<section class="block" id="guides"><div class="wrap narrow">
+<span class="eyebrow">Guides</span>
+<h2 class="big">안내 글</h2>
+<div class="list"><a href="iphone-hide-photos.html">아이폰 사진 숨기기 방법 3가지 (기본 기능부터 금고 앱까지)<span>아이폰에서 사진을 숨기는 방법을 정리했습니다. 기본 '가리기' 기능, 가려진 항목 잠그기, 그리고 기본 기능으로 부족할 때 쓰는 금고 앱까지.</span></a>
 <a href="iphone-hidden-album-lock.html">아이폰 가려진 항목 앨범 잠그는 법 (Face ID·암호 설정)<span>아이폰 사진 앱의 '가려진 항목' 앨범을 Face ID나 암호로 잠그는 방법과, 앨범 자체를 목록에서 숨기는 방법.</span></a>
 <a href="id-card-photo-storage.html">신분증 사진 휴대폰에 안전하게 보관하는 법<span>신분증·여권 사진을 휴대폰 앨범에 그대로 두면 위험합니다. 유출 경로와 안전한 보관 방법, 꼭 지켜야 할 세 가지.</span></a>
 <a href="crypto-seed-phrase-storage.html">코인 지갑 시드 문구 보관 방법 (휴대폰에 둬도 될까?)<span>코인 지갑 복구 문구(시드 문구)를 어디에 보관해야 할까. 종이·금속·휴대폰 보관의 장단점과 절대 하면 안 되는 것.</span></a>
-<a href="photo-vault-app-guide.html">사진 금고 앱 고르는 법: 서버 없는 앱이 안전한 이유<span>사진 금고 앱을 고를 때 확인해야 할 다섯 가지. 클라우드 업로드형과 기기 안 보관형의 차이, 비밀번호를 잊었을 때의 차이.</span></a></div></section>
-<section><h2>꼭 알아두세요</h2><p>락박스는 서버가 없기 때문에 <b>비밀번호를 잊으면 누구도 되찾아 드릴 수 없습니다.</b> 금고를 만들 때 비밀번호를 안전한 곳에 적어 두세요.</p></section>
-</main><footer><div class="wrap">© 2026 락박스(Lockbox) · 서버 없는 사진 금고 · <a href="privacy.html">개인정보처리방침</a></div></footer></body></html>
+<a href="photo-vault-app-guide.html">사진 금고 앱 고르는 법: 서버 없는 앱이 안전한 이유<span>사진 금고 앱을 고를 때 확인해야 할 다섯 가지. 클라우드 업로드형과 기기 안 보관형의 차이, 비밀번호를 잊었을 때의 차이.</span></a></div>
+<p><a href="guides.html">안내 글 전체 보기 →</a></p>
+</div></section>
+
+<section class="block" id="faq"><div class="wrap narrow">
+<span class="eyebrow">FAQ</span>
+<h2 class="big">자주 묻는 질문</h2>
+<details><summary>패턴을 잊어버리면 어떻게 되나요?</summary><p>되찾을 수 없어요. 락박스는 서버가 없고 열쇠를 어디에도 보관하지 않기 때문에, 만든 사람도 열어 드릴 수 없어요. 금고를 만들 때 패턴을 안전한 곳에 기록해 두세요.</p></details>
+<details><summary>애플이나 락박스가 제 사진을 볼 수 있나요?</summary><p>없어요. 사진은 휴대폰 안에서 암호화되고, 어디에도 업로드되지 않아요.</p></details>
+<details><summary>회원가입이 필요한가요?</summary><p>아니요. 계정, 이메일, 전화번호 모두 필요 없어요.</p></details>
+<details><summary>3×3과 5×5 패턴 중 뭐가 좋아요?</summary><p>5×5는 점이 25개라 경우의 수가 훨씬 많아 추측하기 어려워요. 빠르게 열고 싶다면 3×3 + Face ID 조합도 좋아요.</p></details>
+<details><summary>무료로 얼마나 쓸 수 있나요?</summary><p>사진 10장까지 무료예요. 그 이상은 주간·연간·평생 이용권 중 하나로 이용할 수 있어요.</p></details>
+<details><summary>휴대폰을 바꾸면요?</summary><p>암호화된 백업 파일을 직접 저장해 새 폰으로 옮기는 기능을 준비 중이에요.</p></details>
+</div></section>
+
+<section class="final"><div class="wrap">
+<h2 class="big">아무도 못 열어요.<br>만든 사람도.</h2>
+<p class="sub" style="margin:0 auto 28px">락박스로 사진을 진짜 잠가 보세요.</p>
+<a class="btn" href="#download">곧 App Store 출시</a>
+</div></section>
+</main><footer><div class="wrap"><span>© 2026 락박스(Lockbox) · 서버 없는 사진 금고</span><span><a href="guides.html">안내 글</a> · <a href="privacy.html">개인정보처리방침</a></span></div></footer></body></html>

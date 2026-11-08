@@ -9,11 +9,13 @@
 <meta name="google-site-verification" content="여기에-구글-인증코드">
 <meta name="naver-site-verification" content="여기에-네이버-인증코드">
 <link rel="stylesheet" href="style.css">
-</head><body><header class="top"><div class="wrap">
-<a class="logo" href="index.html">Lock<span>box</span></a>
-<nav><a href="guides.html">안내 글</a><a href="privacy.html">개인정보</a></nav>
+</head><body><script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-theme');var dark=c?c==='dark':matchMedia('(prefers-color-scheme: dark)').matches;var n=dark?'light':'dark';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}}</script><header class="top"><div class="wrap">
+<a class="logo" href="index.html"><i></i>Lockbox</a>
+<nav class="menu"><a href="index.html#features">기능</a><a href="index.html#how">작동 방식</a><a href="index.html#security">보안</a><a href="index.html#compare">비교</a><a href="guides.html">안내 글</a></nav>
+<div class="right"><button class="theme" onclick="toggleTheme()" aria-label="테마 전환">◐</button><a class="btn sm" href="index.html#download">앱 받기</a></div>
 </div></header>
-<main class="wrap"><article><h1>개인정보처리방침</h1><p class="meta">시행일 2026-11-08</p>
+<main class="wrap narrow"><article><h1>개인정보처리방침</h1><p class="meta">시행일 2026-11-08</p>
 <p>락박스(이하 '앱')는 이용자의 개인정보를 <b>수집·저장·전송하지 않습니다.</b></p>
 <h2>1. 수집하는 정보</h2><p>없습니다. 앱은 회원가입이 없고, 운영 서버가 없습니다.</p>
 <h2>2. 보관하는 파일</h2><p>이용자가 앱에 넣은 사진·파일·메모는 이용자의 기기 안에서만 암호화되어 저장됩니다. 개발자는 이 파일에 접근할 수 없습니다.</p>
@@ -21,4 +23,4 @@
 <h2>4. 결제</h2><p>결제는 Apple 인앱결제로 처리되며, 앱은 결제 수단 정보를 받지 않습니다.</p>
 <h2>5. 비밀번호 분실</h2><p>서버가 없으므로 비밀번호를 잊으면 금고를 복구할 수 없습니다.</p>
 <h2>6. 문의</h2><p>이메일: 여기에-문의-이메일</p>
-</article></main><footer><div class="wrap">© 2026 락박스(Lockbox) · 서버 없는 사진 금고 · <a href="privacy.html">개인정보처리방침</a></div></footer></body></html>
+</article></main><footer><div class="wrap"><span>© 2026 락박스(Lockbox) · 서버 없는 사진 금고</span><span><a href="guides.html">안내 글</a> · <a href="privacy.html">개인정보처리방침</a></span></div></footer></body></html>
