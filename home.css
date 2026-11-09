@@ -71,3 +71,20 @@
 .lang a[aria-current=page]{background:#1C1C1F;color:var(--ink)}
 html[lang=en] .h-hero h1{font-size:clamp(34px,4.6vw,54px);max-width:12.5em}
 html[lang=en] .h-hero h1 em{display:block}
+/* photo checkup */
+.chk{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+@media (max-width:860px){.chk{grid-template-columns:1fr;gap:36px}}
+.chk .intro{margin-bottom:28px}
+.chk-list{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.chk-list li{padding:13px 0;border-bottom:1px solid var(--line);font-size:15px}
+.chk-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 30px 60px -30px rgba(0,0,0,.6);max-width:420px;width:100%;justify-self:center}
+.chk-card .t{font-weight:600;font-size:17px}
+.chk-card .m{color:var(--muted);font-size:13px;margin:4px 0 14px;font-variant-numeric:tabular-nums}
+.chk-card .bar{height:3px;background:var(--line);border-radius:2px;overflow:hidden;margin-bottom:16px}
+.chk-card .bar i{display:block;height:100%;width:100%;background:var(--accent)}
+.chk-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:15px}
+.chk-row .n{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+.chk-row .ico{margin:0;width:34px;height:34px;color:var(--ink)}
+.chk-row .ico svg{width:17px;height:17px}
+.chk-card .go{display:block;text-align:center;margin-top:18px;background:var(--brand);color:var(--brand-ink);border-radius:10px;padding:12px;font-weight:600;font-size:14px}
+.chk-card .note{display:flex;gap:6px;align-items:center;justify-content:center;color:var(--muted);font-size:12px;margin-top:12px}
