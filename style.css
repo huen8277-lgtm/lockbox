@@ -110,3 +110,4 @@ footer a{color:var(--muted)}
 .shots img{width:min(46%,270px);height:auto}
 .shots.one img{width:min(72%,290px)}
 .shots figcaption{flex-basis:100%;text-align:center;color:var(--muted);font-size:14px;margin-top:4px}
+article .hook{font-size:18px;font-weight:600;line-height:1.6;margin:0 0 16px}
