@@ -12,6 +12,7 @@
 <meta name="naver-site-verification" content="ce65e27ae81950a26bba365ff52a8cfd1723c697">
 <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="home.css">
 <link rel="alternate" hreflang="ko" href="https://lockboxapp.co.kr/"><link rel="alternate" hreflang="en" href="https://lockboxapp.co.kr/en.html"><link rel="alternate" hreflang="x-default" href="https://lockboxapp.co.kr/">
+<script type="application/ld+json" id="faqld">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"락박스는 어떤 앱이에요?","acceptedAnswer":{"@type":"Answer","text":"락박스(Lockbox)는 사진·동영상·신분증·카드·비밀번호를 아이폰 안에서만 암호화해 보관하는 금고 앱이에요. 내가 정한 패턴으로만 열리고, 패턴마다 다른 금고를 만들 수 있어요. 회사 서버와 계정이 없어서 락박스를 만든 저희도, 애플도 금고 안을 볼 수 없어요."}},{"@type":"Question","name":"패턴을 잊어버리면 어떻게 되나요?","acceptedAnswer":{"@type":"Answer","text":"금고를 만들 때 받은 한글 복구 문구 12단어로 열 수 있어요. 패턴과 복구 문구를 모두 잃으면 누구도 되찾아 드릴 수 없어요."}},{"@type":"Question","name":"애플이나 락박스가 제 파일을 볼 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"볼 수 없어요. 파일은 아이폰 안에서 잠긴 뒤 저장돼요. 아이폰 백업이나 iCloud에 들어가도 잠긴 상태 그대로이고, 여는 열쇠는 이 아이폰을 떠나지 않아요. 직접 만드는 암호화 백업도 복구 문구로만 열려요."}},{"@type":"Question","name":"회원가입이 필요한가요?","acceptedAnswer":{"@type":"Answer","text":"아니요. 계정, 이메일, 전화번호 모두 필요 없어요."}},{"@type":"Question","name":"폰을 바꾸면요?","acceptedAnswer":{"@type":"Answer","text":"설정에서 암호화 백업을 만들어 iCloud Drive나 파일 앱에 저장하세요. 새 폰에서 백업 파일과 복구 문구로 복원해요."}},{"@type":"Question","name":"3×3과 5×5 패턴 중 뭐가 좋아요?","acceptedAnswer":{"@type":"Answer","text":"5×5는 점이 25개라 훨씬 추측하기 어려워요. 빠르게 열고 싶다면 패턴과 Face ID를 함께 쓰세요."}},{"@type":"Question","name":"금고는 몇 개까지 만들 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"무료로 3개까지, Pro는 제한 없이 만들 수 있어요. 잠금 화면에서 새 패턴을 그리면 그 패턴으로 열리는 새 금고가 생겨요. 금고마다 이름과 색을 정할 수 있어서 지금 어느 금고가 열렸는지 바로 알 수 있어요."}},{"@type":"Question","name":"사용 데이터를 수집하나요?","acceptedAnswer":{"@type":"Answer","text":"아니요. 락박스에는 분석 도구가 없어요. 결제는 Apple 인앱결제로 처리돼요."}}]}</script>
 </head><body><script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
 function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-theme');var dark=c?c==='dark':matchMedia('(prefers-color-scheme: dark)').matches;var n=dark?'light':'dark';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}}</script><header class="top"><div class="wrap">
 <a class="logo" href="index.html"><i></i>Lockbox</a>
@@ -55,7 +56,7 @@ function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-the
 <p class="num">01 — 잠금</p>
 <h3>폰 암호와 다른,<br>나만 아는 잠금</h3>
 <p>점 25개짜리 5×5 패턴이나 PIN으로 잠그고, 평소엔 Face ID로 빠르게 열어요. 폰 암호를 아는 사람도 금고는 못 열어요.</p>
-<ul><li>틀린 시도는 시간과 함께 기록, 원하면 앞카메라로 한 장</li><li>앱을 벗어나는 순간 자동으로 잠김</li><li>패턴마다 다른 숨은 금고 <span class="pro">PRO</span></li></ul>
+<ul><li>틀린 시도는 시간과 함께 기록, 원하면 앞카메라로 한 장</li><li>앱을 벗어나는 순간 자동으로 잠김</li><li>패턴마다 다른 금고, 무료로 3개까지</li></ul>
 </div>
 </div>
 
@@ -83,11 +84,11 @@ function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-the
 <section class="h-sec alt" id="security"><div class="wrap">
 <p class="kicker">만든 사람도 못 여는 이유</p>
 <h2>지켜 줄 서버가 없어서,<br>털릴 서버도 없어요</h2>
-<p class="intro">대부분의 앱은 사진을 회사 서버에 올려요. 락박스는 처음부터 서버를 만들지 않았어요.</p>
+<p class="intro">대부분의 앱은 사진을 회사 서버에 올려요. 락박스는 처음부터 서버를 만들지 않았어요. 그래서 저희도, 애플도 금고 안을 볼 수 없어요.</p>
 <div class="trust3">
 <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8-8M16 7l2 2M14 9l2 2"/></svg></div><h3>열쇠는 내 폰에만</h3><p>금고를 여는 열쇠는 내 패턴으로 폰 안에서 만들어지고, 폰 밖으로 나가지 않아요.</p></div>
 <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.6-3 8.3-7 10-4-1.7-7-5.4-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>가입도, 서버도 없어요</h3><p>이메일도 전화번호도 묻지 않아요. 회사가 해킹돼도 내 사진은 영향이 없어요.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M7 18a4.5 4.5 0 0 1-.6-9 6 6 0 0 1 11.4 1.5A3.8 3.8 0 0 1 17 18z"/><rect x="9.5" y="12" width="5" height="4" rx="1"/><path d="M10.5 12v-1a1.5 1.5 0 0 1 3 0v1"/></svg></div><h3>백업도 잠긴 채로</h3><p>폰을 바꿀 땐 잠긴 백업 파일을 iCloud Drive에 두고, 복구 문구로만 열어요.</p></div>
+<div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M7 18a4.5 4.5 0 0 1-.6-9 6 6 0 0 1 11.4 1.5A3.8 3.8 0 0 1 17 18z"/><rect x="9.5" y="12" width="5" height="4" rx="1"/><path d="M10.5 12v-1a1.5 1.5 0 0 1 3 0v1"/></svg></div><h3>애플도 못 봐요</h3><p>아이폰 백업이나 iCloud에 들어가도 잠긴 채로 저장돼요. 여는 열쇠는 이 아이폰을 떠나지 않아요.</p></div>
 </div>
 <details class="spec"><summary>기술 사양 자세히 보기</summary>
 <dl><dt>파일·목록 암호화</dt><dd>AES-256-GCM</dd><dt>열쇠 만들기</dt><dd>PBKDF2-SHA256, 600,000회 반복</dd><dt>마스터 키</dt><dd>기기에서 무작위 생성한 256비트</dd><dt>침입 기록 봉인</dt><dd>X25519 공개키 암호</dd><dt>백업</dt><dd>기기에서 암호화한 뒤 저장</dd><dt>서버·계정·분석 도구</dt><dd>없음</dd></dl>
@@ -122,7 +123,7 @@ function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-the
 <section class="h-sec" id="pricing"><div class="wrap center">
 <p class="kicker">가격</p>
 <h2>먼저 무료로 써 보세요</h2>
-<p class="intro">사진·카드·메모 합쳐 10개까지 무료예요. 더 필요해지면 그때 고르세요.</p>
+<p class="intro">사진·카드·메모 합쳐 10개, 금고는 3개까지 무료예요. 더 필요해지면 그때 고르세요.</p>
 <div class="price">
 <div class="card"><small>주간</small><b>2,500원</b><small>부담 없이 체험</small></div>
 <div class="card best"><small>평생 이용권</small><b>49,000원</b><small>한 번 사면 끝</small></div>
@@ -146,13 +147,13 @@ function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-the
 <section class="h-sec" id="faq"><div class="wrap narrow">
 <p class="kicker">자주 묻는 질문</p>
 <h2>궁금한 점이 있으신가요?</h2>
-<details><summary>락박스는 어떤 앱이에요?</summary><p>사진·동영상·신분증·카드·메모를 아이폰 안에서 잠가 보관하는 금고 앱이에요. 서버와 계정이 없어서 저희도 내용을 볼 수 없어요.</p></details>
+<details open><summary>락박스는 어떤 앱이에요?</summary><p>락박스(Lockbox)는 사진·동영상·신분증·카드·비밀번호를 아이폰 안에서만 암호화해 보관하는 금고 앱이에요. 내가 정한 패턴으로만 열리고, 패턴마다 다른 금고를 만들 수 있어요. 회사 서버와 계정이 없어서 락박스를 만든 저희도, 애플도 금고 안을 볼 수 없어요.</p></details>
 <details><summary>패턴을 잊어버리면 어떻게 되나요?</summary><p>금고를 만들 때 받은 한글 복구 문구 12단어로 열 수 있어요. 패턴과 복구 문구를 모두 잃으면 누구도 되찾아 드릴 수 없어요.</p></details>
-<details><summary>애플이나 락박스가 제 사진을 볼 수 있나요?</summary><p>볼 수 없어요. 사진은 폰 안에서 잠기고, 백업도 폰에서 잠근 뒤 저장돼요. 열쇠는 폰 밖으로 나가지 않아요.</p></details>
+<details><summary>애플이나 락박스가 제 파일을 볼 수 있나요?</summary><p>볼 수 없어요. 파일은 아이폰 안에서 잠긴 뒤 저장돼요. 아이폰 백업이나 iCloud에 들어가도 잠긴 상태 그대로이고, 여는 열쇠는 이 아이폰을 떠나지 않아요. 직접 만드는 암호화 백업도 복구 문구로만 열려요.</p></details>
 <details><summary>회원가입이 필요한가요?</summary><p>아니요. 계정, 이메일, 전화번호 모두 필요 없어요.</p></details>
 <details><summary>폰을 바꾸면요?</summary><p>설정에서 암호화 백업을 만들어 iCloud Drive나 파일 앱에 저장하세요. 새 폰에서 백업 파일과 복구 문구로 복원해요.</p></details>
 <details><summary>3×3과 5×5 패턴 중 뭐가 좋아요?</summary><p>5×5는 점이 25개라 훨씬 추측하기 어려워요. 빠르게 열고 싶다면 패턴과 Face ID를 함께 쓰세요.</p></details>
-<details><summary>숨은 금고는 몇 개까지 만들 수 있나요?</summary><p>Pro에서 제한 없이 만들 수 있어요. 금고마다 패턴과 복구 문구가 따로 있어요.</p></details>
+<details><summary>금고는 몇 개까지 만들 수 있나요?</summary><p>무료로 3개까지, Pro는 제한 없이 만들 수 있어요. 잠금 화면에서 새 패턴을 그리면 그 패턴으로 열리는 새 금고가 생겨요. 금고마다 이름과 색을 정할 수 있어서 지금 어느 금고가 열렸는지 바로 알 수 있어요.</p></details>
 <details><summary>사용 데이터를 수집하나요?</summary><p>아니요. 락박스에는 분석 도구가 없어요. 결제는 Apple 인앱결제로 처리돼요.</p></details>
 </div></section>
 
