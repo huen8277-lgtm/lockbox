@@ -11,7 +11,8 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%231b2a4a%22/%3E%3Crect x=%229%22 y=%2214%22 width=%2214%22 height=%2210%22 rx=%222%22 fill=%22%23f2b84b%22/%3E%3Cpath d=%22M12 14v-3a4 4 0 0 1 8 0v3%22 fill=%22none%22 stroke=%22%23f2b84b%22 stroke-width=%222.5%22/%3E%3C/svg%3E">
 <meta name="naver-site-verification" content="ce65e27ae81950a26bba365ff52a8cfd1723c697">
 <link rel="stylesheet" href="style.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "아이폰 가려진 항목 앨범 잠그는 법 (Face ID·암호 설정)", "description": "아이폰 사진 앱의 '가려진 항목' 앨범을 Face ID나 암호로 잠그는 방법과, 앨범 자체를 목록에서 숨기는 방법.", "datePublished": "2026-11-08", "dateModified": "2026-11-08", "author": {"@type": "Organization", "name": "락박스"}, "mainEntityOfPage": "https://lockboxapp.co.kr/iphone-hidden-album-lock.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "아이폰 가려진 항목 앨범 잠그는 법 (Face ID·암호 설정)", "description": "아이폰 사진 앱의 '가려진 항목' 앨범을 Face ID나 암호로 잠그는 방법과, 앨범 자체를 목록에서 숨기는 방법.", "datePublished": "2026-11-08", "dateModified": "2026-11-09", "author": {"@type": "Organization", "name": "락박스"}, "mainEntityOfPage": "https://lockboxapp.co.kr/iphone-hidden-album-lock.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"잠금을 켰는데 가려진 항목이 그냥 열려요.","acceptedAnswer":{"@type":"Answer","text":"iOS 16 이상인지 먼저 확인하고, 설정 → 앱 → 사진에서 Face ID 사용(또는 Touch ID 사용, 암호 사용)이 켜져 있는지 봅니다."}},{"@type":"Question","name":"최근 삭제된 항목도 같이 잠기나요?","acceptedAnswer":{"@type":"Answer","text":"네. 같은 설정 하나로 '가려진 항목'과 '최근 삭제된 항목'이 함께 잠깁니다."}},{"@type":"Question","name":"가려진 항목 잠금은 폰 암호로도 풀리나요?","acceptedAnswer":{"@type":"Answer","text":"네. Face ID가 실패하면 폰 잠금 암호로 열 수 있어서, 폰 암호를 아는 사람에게는 소용이 없습니다."}}]}</script>
 </head><body><script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
 function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-theme');var dark=c?c==='dark':matchMedia('(prefers-color-scheme: dark)').matches;var n=dark?'light':'dark';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}}</script><header class="top"><div class="wrap">
 <a class="logo" href="index.html"><i></i>Lockbox</a>
@@ -45,5 +46,25 @@ function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-the
 <p>폰 암호와 별개인 비밀번호가 필요하다면 별도 금고 앱이 맞습니다.</p>
 <p>→ <a href="iphone-hide-photos.html">아이폰 사진 숨기기 방법 3가지</a></p>
 <div class="cta"><p><b>폰 암호와 다른 비밀번호로, 만든 사람도 못 여는 금고.</b><br>락박스는 사진을 서버에 올리지 않습니다.</p><a class="btn" href="#download">락박스 무료로 받기</a></div>
+<h2>잠금이 풀리는 경우 점검표</h2>
+<p>잠금을 켰는데도 다른 사람이 가려진 항목을 볼 수 있다면 아래를 확인하세요.</p>
+<table>
+<tr><th>확인할 것</th><th>이유</th></tr>
+<tr><td>폰 잠금 암호를 아는 사람이 있는지</td><td>Face ID가 실패하면 폰 암호로 열 수 있습니다.</td></tr>
+<tr><td>Face ID에 다른 사람 얼굴이 등록돼 있는지</td><td>'대체 외모'로 등록된 사람도 열 수 있습니다. 설정 → Face ID 및 암호에서 확인합니다.</td></tr>
+<tr><td>같은 계정의 아이패드·맥</td><td>iCloud 사진을 쓰면 그 기기에도 가려진 항목이 있습니다. 그 기기의 잠금도 켜 두세요.</td></tr>
+<tr><td>'가려진 항목' 앨범 보기</td><td>켜져 있으면 숨긴 사진이 있다는 사실 자체가 드러납니다.</td></tr>
+</table>
+
+<h2>폰 암호와 다른 비밀번호가 필요할 때</h2>
+<p>가려진 항목 잠금은 결국 폰 잠금 암호와 같은 열쇠를 씁니다. 폰 암호를 가족이나 연인과 공유한다면 금고 앱처럼 <b>따로 정한 비밀번호</b>로 잠기는 곳이 필요합니다. 락박스는 폰 암호와 별개인 3×3·5×5 패턴이나 PIN으로 잠기고, 틀린 시도는 침입 기록으로 남습니다.</p>
+
+<h2>자주 묻는 질문</h2>
+<h3>잠금을 켰는데 가려진 항목이 그냥 열려요.</h3>
+<p>iOS 16 이상인지 먼저 확인하세요. 그 다음 설정 → 앱 → 사진에서 Face ID 사용(또는 Touch ID 사용, 암호 사용)이 켜져 있는지 봅니다.</p>
+<h3>최근 삭제된 항목도 같이 잠기나요?</h3>
+<p>네. 같은 설정 하나로 '가려진 항목'과 '최근 삭제된 항목'이 함께 잠깁니다.</p>
+<h3>아이폰 기본 기능만으로 충분한 사람은 누구인가요?</h3>
+<p>폰 암호를 혼자만 알고, iCloud를 쓰는 다른 기기도 잘 잠가 둔다면 기본 잠금으로 충분합니다.</p>
 <h2>다른 안내 글</h2><div class="list"><a href="iphone-hide-photos.html">아이폰 사진 숨기기 방법 3가지 (기본 기능부터 금고 앱까지)</a><a href="id-card-photo-storage.html">신분증 사진 휴대폰에 안전하게 보관하는 법</a><a href="crypto-seed-phrase-storage.html">코인 지갑 시드 문구 보관 방법 (휴대폰에 둬도 될까?)</a><a href="photo-vault-app-guide.html">사진 금고 앱 고르는 법: 서버 없는 앱이 안전한 이유</a></div>
 </article></main><footer><div class="wrap"><span>© 2026 락박스(Lockbox) · 서버 없는 사진 금고</span><span><a href="guides.html">안내 글</a> · <a href="privacy.html">개인정보처리방침</a></span></div></footer></body></html>

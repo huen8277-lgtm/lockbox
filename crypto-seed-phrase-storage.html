@@ -11,7 +11,8 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%231b2a4a%22/%3E%3Crect x=%229%22 y=%2214%22 width=%2214%22 height=%2210%22 rx=%222%22 fill=%22%23f2b84b%22/%3E%3Cpath d=%22M12 14v-3a4 4 0 0 1 8 0v3%22 fill=%22none%22 stroke=%22%23f2b84b%22 stroke-width=%222.5%22/%3E%3C/svg%3E">
 <meta name="naver-site-verification" content="ce65e27ae81950a26bba365ff52a8cfd1723c697">
 <link rel="stylesheet" href="style.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "코인 지갑 시드 문구 보관 방법 (휴대폰에 둬도 될까?)", "description": "코인 지갑 복구 문구(시드 문구)를 어디에 보관해야 할까. 종이·금속·휴대폰 보관의 장단점과 절대 하면 안 되는 것.", "datePublished": "2026-11-08", "dateModified": "2026-11-08", "author": {"@type": "Organization", "name": "락박스"}, "mainEntityOfPage": "https://lockboxapp.co.kr/crypto-seed-phrase-storage.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "코인 지갑 시드 문구 보관 방법 (휴대폰에 둬도 될까?)", "description": "코인 지갑 복구 문구(시드 문구)를 어디에 보관해야 할까. 종이·금속·휴대폰 보관의 장단점과 절대 하면 안 되는 것.", "datePublished": "2026-11-08", "dateModified": "2026-11-09", "author": {"@type": "Organization", "name": "락박스"}, "mainEntityOfPage": "https://lockboxapp.co.kr/crypto-seed-phrase-storage.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"시드 문구를 둘로 나눠 따로 보관하면 더 안전한가요?","acceptedAnswer":{"@type":"Answer","text":"단순히 반씩 나누면 한쪽만 털려도 추측할 경우의 수가 크게 줄어듭니다. 지갑이 공식 지원하는 분할 백업이나 멀티시그 방식을 쓰세요."}},{"@type":"Question","name":"금고 앱에만 보관해도 되나요?","acceptedAnswer":{"@type":"Answer","text":"금고 앱은 사본 보관용으로 쓰고, 원본은 종이나 금속판으로 오프라인에 따로 두는 것이 좋습니다."}},{"@type":"Question","name":"시드 문구를 잃어버리면 거래소가 찾아줄 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"개인 지갑의 시드는 누구도 되찾아 줄 수 없습니다. 거래소 계정과 개인 지갑은 다른 개념입니다."}}]}</script>
 </head><body><script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
 function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-theme');var dark=c?c==='dark':matchMedia('(prefers-color-scheme: dark)').matches;var n=dark?'light':'dark';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}}</script><header class="top"><div class="wrap">
 <a class="logo" href="index.html"><i></i>Lockbox</a>
@@ -47,5 +48,28 @@ function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-the
 
 <p>→ <a href="photo-vault-app-guide.html">서버 없는 금고 앱이 안전한 이유</a></p>
 <div class="cta"><p><b>폰 암호와 다른 비밀번호로, 만든 사람도 못 여는 금고.</b><br>락박스는 사진을 서버에 올리지 않습니다.</p><a class="btn" href="#download">락박스 무료로 받기</a></div>
+<h2>시드 문구를 노리는 흔한 수법</h2>
+<ul>
+<li><b>가짜 지갑 앱·사이트:</b> 진짜 지갑과 똑같은 화면에서 시드 문구를 입력하게 만듭니다. 지갑 앱은 공식 사이트 링크로만 받으세요.</li>
+<li><b>고객센터 사칭:</b> "지갑 동기화", "계정 검증"이 필요하다며 시드를 묻습니다. 정상적인 서비스는 시드를 절대 묻지 않습니다.</li>
+<li><b>사진·클라우드 털기:</b> 클라우드 계정이 뚫리면 앨범 속 시드 스크린샷이 그대로 넘어갑니다.</li>
+<li><b>클립보드 노리기:</b> 복사한 문구나 주소를 몰래 읽거나 바꾸는 악성 앱이 있습니다. 시드는 복사·붙여넣기 하지 마세요.</li>
+</ul>
+
+<h2>백업이 제대로 됐는지 점검하는 법</h2>
+<ol>
+<li>단어 수(12개 또는 24개)와 순서, 철자를 다시 확인합니다.</li>
+<li>패스프레이즈(추가 비밀번호)를 쓴다면 시드와 다른 곳에 따로 적어 둡니다.</li>
+<li>여유 기기나 지갑 초기화 후 복원을 한 번 해 보고, 같은 주소가 나오는지 확인합니다. 처음에는 소액으로 시험하세요.</li>
+<li>가족이 알아야 할 상황을 대비해, 보관 위치를 적은 안내를 따로 남겨 둡니다.</li>
+</ol>
+
+<h2>자주 묻는 질문</h2>
+<h3>시드 문구를 둘로 나눠 따로 보관하면 더 안전한가요?</h3>
+<p>단순히 반씩 나누면 한쪽만 털려도 추측할 경우의 수가 크게 줄어듭니다. 나눠 보관하려면 지갑이 공식 지원하는 분할 백업이나 멀티시그 방식을 쓰세요.</p>
+<h3>금고 앱에만 보관해도 되나요?</h3>
+<p>금고 앱은 사본 보관용으로 쓰고, 원본은 종이나 금속판으로 오프라인에 따로 두는 것이 좋습니다. 폰 고장이나 분실에 대비해야 하기 때문입니다.</p>
+<h3>시드 문구를 잃어버리면 거래소가 찾아줄 수 있나요?</h3>
+<p>개인 지갑의 시드는 누구도 되찾아 줄 수 없습니다. 거래소 계정과 개인 지갑은 다른 개념입니다.</p>
 <h2>다른 안내 글</h2><div class="list"><a href="iphone-hide-photos.html">아이폰 사진 숨기기 방법 3가지 (기본 기능부터 금고 앱까지)</a><a href="iphone-hidden-album-lock.html">아이폰 가려진 항목 앨범 잠그는 법 (Face ID·암호 설정)</a><a href="id-card-photo-storage.html">신분증 사진 휴대폰에 안전하게 보관하는 법</a><a href="photo-vault-app-guide.html">사진 금고 앱 고르는 법: 서버 없는 앱이 안전한 이유</a></div>
 </article></main><footer><div class="wrap"><span>© 2026 락박스(Lockbox) · 서버 없는 사진 금고</span><span><a href="guides.html">안내 글</a> · <a href="privacy.html">개인정보처리방침</a></span></div></footer></body></html>
