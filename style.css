@@ -105,3 +105,8 @@ article th{background:var(--bg2)}
 footer{color:var(--muted);font-size:14px;padding:36px 0 56px}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 footer a{color:var(--muted)}
+/* app screenshots */
+.shots{margin:28px 0;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.shots img{width:min(46%,270px);height:auto}
+.shots.one img{width:min(72%,290px)}
+.shots figcaption{flex-basis:100%;text-align:center;color:var(--muted);font-size:14px;margin-top:4px}
