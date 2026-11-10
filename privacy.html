@@ -17,16 +17,27 @@ function toggleTheme(){var d=document.documentElement,c=d.getAttribute('data-the
 <nav class="menu"><a href="index.html#features">기능</a><a href="index.html#how">작동 방식</a><a href="index.html#security">보안</a><a href="index.html#compare">비교</a><a href="guides.html">안내 글</a></nav>
 <div class="right"><button class="theme" onclick="toggleTheme()" aria-label="테마 전환">테마</button><a class="btn sm" href="index.html#download">앱 받기</a></div>
 </div></header>
-<main class="wrap narrow"><article><h1>개인정보처리방침</h1><p class="meta">시행일 2026-11-08</p>
+<main class="wrap narrow"><article><h1>개인정보처리방침</h1><p class="meta">시행일 2026-11-10 · <a href="#en">English</a></p>
 <p>락박스(이하 '앱')는 이용자가 금고에 넣은 사진·동영상·카드·메모 등 <b>어떤 내용도 수집·저장·전송하지 않습니다.</b> 앱에는 회원가입과 운영 서버가 없습니다.</p>
 <h2>1. 금고 안의 내용</h2><p>모든 내용은 이용자의 기기 안에서 AES-256-GCM으로 암호화되어 저장됩니다. 암호를 푸는 열쇠는 이용자의 패턴·PIN·복구 문구에서만 만들어지며 기기 밖으로 나가지 않습니다. 개발자는 금고 내용에 접근할 수 없습니다.</p>
 <h2>2. 백업</h2><p>이용자가 직접 만든 백업 파일은 기기 안에서 암호화된 뒤, 이용자가 고른 위치(iCloud Drive, 파일 앱 등)에 저장됩니다. 개발자는 백업 파일을 받지 않습니다.</p>
 <h2>3. 권한 사용</h2><ul>
-<li>사진: 금고로 가져올 사진·동영상을 고르고, 원하실 때 원본을 지우기 위해 사용합니다.</li>
+<li>사진: 금고로 가져올 사진·동영상을 고르고, 이용자가 사진첩 점검을 시작한 경우 최근 사진을 확인하며, 원하실 때 원본을 지우기 위해 사용합니다.</li>
 <li>카메라·마이크: 금고 카메라 촬영과, 이용자가 켠 경우에 한해 잠금 화면 침입자 사진 촬영에 사용합니다. 찍힌 사진은 기기 안에 암호화되어 저장됩니다.</li>
 <li>Face ID: 금고 잠금 해제에만 사용하며, 생체 정보는 앱이 받지 않습니다.</li></ul>
-<h2>4. 결제</h2><p>결제는 Apple 인앱결제로 처리됩니다. 구독 상태 확인을 위해 결제 관리 서비스(RevenueCat)가 이름·연락처 없이 무작위로 생성된 이용자 ID와 구매 내역을 처리합니다. 금고 내용은 전달되지 않습니다.</p>
-<h2>5. 분석 도구</h2><p>앱에는 광고·분석 도구가 들어 있지 않습니다.</p>
-<h2>6. 비밀번호 분실</h2><p>서버가 없으므로 패턴과 복구 문구를 모두 잃으면 금고를 복구할 수 없습니다.</p>
-<h2>7. 문의</h2><p>이메일: 여기에-문의-이메일</p>
+<h2>4. 사진첩 점검</h2><p>이용자가 사진첩 점검을 시작하면 앱은 사진 앱의 최근 사진(최대 1,000장)에 찍힌 글자를 <b>기기 안에서만</b> 읽어 신분증·카드·여권·통장 사본·코인 복구 문구 사진을 찾습니다. 글자 인식은 기기에 내장된 오프라인 모델(Google ML Kit)로 처리하며, 사진과 읽은 글자는 어디로도 전송하거나 저장하지 않습니다. 확인을 위해 만든 임시 사본은 확인 직후 삭제됩니다. 찾은 사진 중 이용자가 고른 사진만 금고로 옮겨집니다.</p>
+<h2>5. 결제</h2><p>결제는 Apple 인앱결제로 처리됩니다. 구독 상태 확인을 위해 결제 관리 서비스(RevenueCat)가 이름·연락처 없이 무작위로 생성된 이용자 ID와 구매 내역을 처리합니다. 금고 내용은 전달되지 않습니다.</p>
+<h2>6. 분석 도구</h2><p>앱에는 광고·분석 도구가 들어 있지 않습니다.</p>
+<h2>7. 비밀번호 분실</h2><p>서버가 없으므로 패턴과 복구 문구를 모두 잃으면 금고를 복구할 수 없습니다.</p>
+<h2>8. 문의</h2><p>이메일: 여기에-문의-이메일</p>
+<h2 id="en" style="margin-top:64px">Privacy Policy (English)</h2><p class="meta">Effective 2026-11-10</p>
+<p>Lockbox (the "app") <b>does not collect, store or transmit anything you put in your vault</b>, including photos, videos, cards and notes. The app has no account and no server.</p>
+<h3>1. Vault contents</h3><p>Everything is encrypted with AES-256-GCM on your device. The keys are derived only from your pattern, PIN or recovery phrase and never leave the device. The developer cannot access your vault.</p>
+<h3>2. Backups</h3><p>Backup files you create are encrypted on the device and saved to a location you choose, such as iCloud Drive or Files. The developer never receives them.</p>
+<h3>3. Permissions</h3><ul><li>Photos: to choose photos and videos to move into the vault, to check recent photos when you start Photo Checkup, and to delete originals if you ask.</li><li>Camera and microphone: for the vault camera and, only if you turn it on, the intruder photo on the lock screen. Photos are stored encrypted on the device.</li><li>Face ID: used only to unlock the vault. The app never receives biometric data.</li></ul>
+<h3>4. Photo Checkup</h3><p>When you start Photo Checkup, the app reads text in your recent photos (up to 1,000) <b>only on your device</b> to find photos of IDs, cards, passports, bank statements or crypto recovery phrases. Text recognition uses an offline on-device model (Google ML Kit). Photos and recognized text are never sent or stored. Temporary copies made for the check are deleted right away. Only the photos you choose are moved into the vault.</p>
+<h3>5. Payments</h3><p>Payments are processed by Apple In-App Purchase. To check subscription status, our payment service (RevenueCat) processes a randomly generated user ID and purchase history, without your name or contact details. Vault contents are never shared.</p>
+<h3>6. Analytics</h3><p>The app contains no advertising or analytics tools.</p>
+<h3>7. Lost pattern</h3><p>Because there is no server, the vault cannot be recovered if you lose both your pattern and your recovery phrase.</p>
+<h3>8. Contact</h3><p>Email: see the Korean section above.</p>
 </article></main><footer><div class="wrap"><span>© 2026 락박스(Lockbox) · 서버 없는 사진 금고</span><span><a href="guides.html">안내 글</a> · <a href="privacy.html">개인정보처리방침</a></span></div></footer></body></html>
