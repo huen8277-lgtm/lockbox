@@ -144,3 +144,10 @@ article th{background:var(--bg2)}
 article .hook{font-weight:500;color:var(--ink)}
 .shots figcaption{color:var(--muted)}
 footer{border-top:1px solid var(--line)}
+
+/* softer charcoal: a little brighter (overrides above) */
+:root,:root[data-theme],:root:not([data-theme=light]){--bg:#1A1A1D;--bg2:#202024;--card:#232327;--line:#333338;--muted:#B4B4B9;--code:#18181B}
+html body{background:var(--bg)}
+html header.top{background:rgba(26,26,29,.82)}
+html .lang a[aria-current=page]{background:#2E2E33}
+html .btn.ghost,html .list a:hover{border-color:#4A4A50}
